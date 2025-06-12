@@ -13,6 +13,18 @@ def book_char_count(text):
             char_count[char] += 1
     return char_count
 
+def sorted_list()
+    sorted = {}
+    count_dict = book_char_count[]
+    for count in count_dict:
+        num = count_dict[count]
+
+    sorted.sort(reverse=True, key=sort_on)
+    return sorted
+    
+
+
+
 
 
 
