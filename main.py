@@ -8,10 +8,6 @@ def get_book_text(path):
     with open(path) as f:
         return f.read()
 
-def get_number_of_words(text):
-    words = text.split()
-    return len(words)
-
-
+from stats import get_number_of_words
 
 main()
