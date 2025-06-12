@@ -7,5 +7,9 @@ def main():
    path = get_book_text("books/frankenstein.txt")
    print(f"{path}")
 
+def number_of_words():
+    
+    print(f"{num_words} words found in the document")
+
 
 main()
