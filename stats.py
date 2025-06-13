@@ -20,9 +20,12 @@ def sorted_list(char_count):
             num = char_count[count]
             dict = {"char": count, "num": num}
             sorted.append(dict)
-
     sorted.sort(reverse=True, key=sort_on)
     return sorted
+
+def sort_on(dict):
+    return dict["num"]
+
     
 
 
