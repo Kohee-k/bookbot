@@ -6,9 +6,12 @@ from stats import (
     sorted_list
 )
 
+if len(sys.argv) != 2:
+    print("Usage: python3 main.py <path_to_book>")
+    sys.exit(1)
 
 def main():
-   book_path = "books/frankenstein.txt"
+   book_path = sys.argv[1]
    text = get_book_text(book_path)
    num_words = get_number_of_words(text)
    character_count = book_char_count(text)
